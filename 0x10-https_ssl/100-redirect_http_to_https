@@ -41,8 +41,8 @@ frontend  namelix-tech-frontend
         default_backend namelix-tech-backend
 backend namelix-tech-backend
         balance roundrobin
-        server 176572-web-01 54.144.44.234:80 check
-        server 176572-web-02 3.83.18.122:80 check
+        server 519422-web-01 54.144.44.234:80 check
+        server 519422-web-02 3.83.18.122:80 check
 
 listen http-in
         bind :80
